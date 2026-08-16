@@ -37,12 +37,14 @@ The dataset used is the **Housing Prices Dataset**, which includes structural, d
 ### 1. Feature Importance
 Identifies the key drivers affecting property prices (such as `area`, `bathrooms`, and `airconditioning`).
 
-![Feature Importance](feature_importance.png)
+<img width="989" height="590" alt="feature_importance" src="https://github.com/user-attachments/assets/ed915f25-a72f-4f66-b8e0-889148d28691" />
+
 
 ### 2. Actual vs. Predicted Prices
 Evaluates the model's prediction accuracy along the $y = x$ reference diagonal.
 
-![Actual vs Predicted](actual_vs_predicted.png)
+<img width="989" height="590" alt="actual_vs_predicted" src="https://github.com/user-attachments/assets/5526fe53-d54f-47b9-8114-53633ec4ad93" />
+
 
 ---
 
