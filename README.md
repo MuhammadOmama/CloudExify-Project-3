@@ -54,3 +54,23 @@ Evaluates the model's prediction accuracy along the $y = x$ reference diagonal.
 1. Ensure the required packages are installed:
    ```bash
    pip install streamlit pandas scikit-learn joblib matplotlib
+
+### Launch the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+### 📁 Repository Structure
+
+```text
+├── Housing.csv                  # Dataset file
+├── house_price_prediction.ipynb # Step-by-step notebook (EDA, training, evaluation)
+├── house_price_model.pkl        # Serialized trained model
+├── model_features.pkl           # Saved column list for one-hot alignment
+├── app.py                       # Streamlit web deployment script
+├── feature_importance.png       # Saved feature importance plot
+├── actual_vs_predicted.png      # Saved actual vs predicted plot
+└── README.md                    # Project documentation
+```
+
